@@ -17,6 +17,9 @@ var myHeaderChild = {
   template: '<p>i am my header child</p>'
 }
 
+
+
+
 var myHeader = {
   template: '<p><my-header-child></my-header-child>hello Vue {{word}}</p>',
   data: function () {
